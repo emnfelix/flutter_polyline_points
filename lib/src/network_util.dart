@@ -27,7 +27,7 @@ class NetworkUtil {
     var params = {
       "origin": "${origin.latitude},${origin.longitude}",
       "destination": "${destination.latitude},${destination.longitude}",
-      "travelMode": mode,
+      "mode": mode,
       "avoidHighways": "$avoidHighways",
       "avoidFerries": "$avoidFerries",
       "avoidTolls": "$avoidTolls",
